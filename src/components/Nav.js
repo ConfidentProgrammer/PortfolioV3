@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div className="main-nav-div">
       <div className="container-fluid nav-container">
-        <nav class="navbar navbar-expand-lg  navbar-custom justify-content-end fixed-top">
+        <nav class="navbar navbar-expand-lg  navbar-custom justify-content-end fixed-top py-4">
           <button
             class="navbar-toggler menu-button-custom"
             type="button"

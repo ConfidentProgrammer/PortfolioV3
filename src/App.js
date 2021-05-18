@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Nav from "./components/Nav";
 import Email from "./components/Email";
 import SocialLinks from "./components/SocialLinks";
+import About from "./components/About";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         url={"mailto:"}
       />
       <SocialLinks />
+      <About />
     </div>
   );
 }
