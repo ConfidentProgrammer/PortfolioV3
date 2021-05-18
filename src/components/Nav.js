@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div className="main-nav-div">
       <div className="container-fluid nav-container">
-        <nav class="navbar navbar-expand-lg  navbar-custom justify-content-end">
+        <nav class="navbar navbar-expand-lg  navbar-custom justify-content-end fixed-top">
           <button
             class="navbar-toggler menu-button-custom"
             type="button"
