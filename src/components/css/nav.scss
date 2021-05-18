@@ -3,6 +3,7 @@
 }
 nav {
   background-color: #10192c;
+  letter-spacing: 1px;
 }
 .nav-container {
   margin-top: 30px;
@@ -33,17 +34,22 @@ nav {
   letter-spacing: 2px;
 }
 .nav-item {
-  margin-left: 30px;
+  margin-left: 25px;
 
   padding: 2px;
 }
 .nav-items-ul {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .resume-link {
-  border: 2px solid #5ff3d1;
+  border: 1px solid #5ff3d1;
   border-radius: 3px;
   vertical-align: middle;
+  padding: 8px;
+  transition: all 0.2s;
+  &:hover {
+    background-color: #133040;
+  }
 }
 @media only screen and (max-width: 990px) {
   .resume-link,
