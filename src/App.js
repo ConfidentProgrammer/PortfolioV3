@@ -10,7 +10,7 @@ function App() {
       <HeroSection />
 
       <Email
-        right={-90}
+        right={-120}
         bottom={110}
         content={"deep.canada29@gmail.com"}
         url={"mailto:"}

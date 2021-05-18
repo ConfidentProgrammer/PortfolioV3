@@ -25,7 +25,7 @@ export default function Nav() {
           </button>
 
           <div
-            class="collapse navbar-collapse justify-content-end "
+            class="collapse navbar-collapse justify-content-end ul-nav"
             id="navbarNav"
           >
             <ul class="navbar-nav nav-items-ul">
