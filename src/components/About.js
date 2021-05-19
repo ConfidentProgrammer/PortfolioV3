@@ -2,7 +2,7 @@ import React from "react";
 import "./css/about.scss";
 import Tag from "./Tag";
 function About() {
-  return <div className='about-container'>
+  return <div  className='about-container'>
       <div className="container">
          <div className="row">
              <div className="col-1">
@@ -15,7 +15,7 @@ function About() {
           </h2>
           <Tag name='/h2' />
           <Tag name='p' />
-             <p className="about-para">
+             <p id='About' className="about-para">
                  More about me <span className='diff-text'>,</span> I am passionate about web development since my childhood, I can spend more than <span className='diff-text'>6 hours</span> to automate something than hard code it. I think that cloning the somebody's project is the best way to practice programming. The primary area of my focus is the <span className='diff-text'> Front-end Development.</span>
                
              </p>
