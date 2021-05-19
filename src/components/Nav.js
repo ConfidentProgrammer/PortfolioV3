@@ -62,7 +62,7 @@ export default function Nav() {
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="#"
+                  href="#workID"
                   style={{ outline: border2 }}
                   onClick={() => {
                     setBorder2("2px dashed #5ff3d1");

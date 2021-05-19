@@ -1,0 +1,28 @@
+$textColorHeading: #ccd6f6;
+$skillspara: #8892b0;
+
+.about-h2 {
+  font-weight: bold;
+  color: $textColorHeading;
+  font-size: 2.3rem;
+}
+.about-line {
+  display: inline-block;
+  vertical-align: middle;
+  // width: 350px;
+  background-color: #a3abc249;
+}
+.title-container {
+  margin-top: 250px;
+  line-height: 28px;
+}
+@media screen and (max-width: 600px) {
+  .title-container {
+    margin-top: 390px;
+  }
+}
+@media screen and (max-height: 500px) {
+  .title-container {
+    margin-top: 390px;
+  }
+}

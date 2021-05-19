@@ -4,6 +4,9 @@ import Nav from "./components/Nav";
 import Email from "./components/Email";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
+import Title from "./components/Title";
+import Work from "./components/Work";
+import WorksMain from "./components/WorksMain";
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,8 @@ function App() {
       />
       <SocialLinks />
       <About />
+      <Title title={"Experience"} number={"02."} width={230} />
+      <WorksMain />
     </div>
   );
 }
