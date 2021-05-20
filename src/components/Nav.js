@@ -90,7 +90,10 @@ export default function Nav() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link resume-link" href="#">
+                <a
+                  class="nav-link resume-link"
+                  href="https://drive.google.com/file/d/1wqUssHEa_YAv2M72q9Q9qEYLL-tNx5Ji/view?usp=sharing"
+                >
                   Resume
                 </a>
               </li>
