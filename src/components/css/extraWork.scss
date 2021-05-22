@@ -7,6 +7,15 @@
   background-color: #112240;
   border-radius: 5px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-8px);
+    cursor: cell;
+  }
+  &:hover .extra-work-title {
+    color: #5ff3d1;
+  }
 }
 
 .work-icon-container {

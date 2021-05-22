@@ -13,7 +13,7 @@ function HeroSection() {
             <Tag name="/p" />
 
             <Tag name="h1" />
-            <h1 className="name-h1">Deep patel.</h1>
+            <h1 className="name-h1 ">Deep patel.</h1>
             <Tag name="/h1" />
 
             <Tag name="h2" />
