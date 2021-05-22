@@ -31,3 +31,8 @@ body {
   background: #5ff3d1;
   border-radius: 10px;
 }
+@media screen and (min-width: 1000px) {
+  .mobile-link-container {
+    display: none;
+  }
+}

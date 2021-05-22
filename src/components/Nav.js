@@ -77,7 +77,7 @@ export default function Nav() {
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="#"
+                  href="#projects"
                   style={{ outline: border3 }}
                   onClick={() => {
                     setBorder3("2px dashed #5ff3d1");

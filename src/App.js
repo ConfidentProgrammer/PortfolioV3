@@ -8,6 +8,9 @@ import Title from "./components/Title";
 import Work from "./components/Work";
 import WorksMain from "./components/WorksMain";
 import RandomShape from "./components/RandomShape";
+import FeaturedProjectMain from "./components/FeaturedProjectMain";
+import SocialMobile from "./components/SocialMobile";
+import ExtraWorkMain from "./components/ExtraWorkMain";
 function App() {
   return (
     <div className="App">
@@ -19,7 +22,7 @@ function App() {
       <RandomShape T={800} L={300} />
 
       <Email
-        right={-120}
+        right={-150}
         bottom={110}
         content={"deep.canada29@gmail.com"}
         url={"mailto:"}
@@ -28,6 +31,11 @@ function App() {
       <About />
       <Title title={"Experience"} number={"02."} width={230} />
       <WorksMain />
+      <Title title={"Featured Projects"} number={"03."} width={130} />
+      <FeaturedProjectMain />
+
+      <ExtraWorkMain />
+      <SocialMobile />
     </div>
   );
 }

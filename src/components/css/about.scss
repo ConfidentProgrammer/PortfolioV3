@@ -32,7 +32,7 @@ $skillspara: #8892b0;
 .skills-ul {
   list-style-type: none;
 }
-.fas {
+.fa-angle-right {
   color: #5ff3d1;
   font-size: 0.7rem;
   vertical-align: middle;
@@ -49,7 +49,7 @@ $skillspara: #8892b0;
   background-image: url("../profile.png");
   background-size: cover;
   transition: all 0.2s;
-
+  margin: 0 auto;
   &:hover + .frame {
     margin-top: 15px;
     margin-left: 15px;

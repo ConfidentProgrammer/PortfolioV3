@@ -1,0 +1,51 @@
+.card-container {
+  // border: 1px solid red;
+  margin-top: 50px;
+  width: 340px;
+  height: 320px;
+  padding: 20px;
+  background-color: #112240;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.work-icon-container {
+  padding: 5px 20px;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  // border: 1px solid green;
+}
+.folder-icon {
+  color: #5ff3d1;
+  transform: rotateZ(-90deg);
+}
+.github {
+  color: #8892b0;
+}
+.extra-work-title {
+  color: #ccd6f6;
+  font-size: 1.3rem;
+}
+.extra-work-desc,
+.work-tech-list {
+  color: #8892b0;
+  font-size: 0.9rem;
+}
+.work-desc-container {
+  position: relative;
+}
+.work-tech-list {
+  position: absolute;
+  bottom: -90px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-size: 0.8rem;
+  //  border: 1px solid yellow;
+  color: #8892b0a1;
+}
+.work-tech-list-item {
+  margin: 5px 10px;
+}
