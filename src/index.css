@@ -6,9 +6,11 @@ body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
-* {
+/* * {
   margin: 0;
-}
+  padding: 0;
+  overflow: hidden;
+} */
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -31,6 +33,12 @@ body {
   background: #5ff3d1;
   border-radius: 10px;
 }
+
+canvas {
+  position: fixed;
+  z-index: -100;
+}
+
 @media screen and (min-width: 1000px) {
   .mobile-link-container {
     display: none;
